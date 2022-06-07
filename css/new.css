@@ -1,0 +1,52 @@
+.PopUpwrapp {
+    width: 60%;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    padding: 80px 0px;
+    top: 10%;
+    border: 1px solid rgb(29, 27, 27);
+  }
+  .PopUpwrapp h2 {
+    font-size: 2.25rem;
+    color: #ff0000;
+    font-family: "GothamRoundedMedium";
+  }
+  .PopUpwrapp select {
+    margin: 10px 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  .PopUpwrapp p {
+    font-size: 1.5rem;
+    color: #000;
+    font-family: "GothamRoundedBook";
+  }
+  .PopUpwrapp .buyToApp {
+    width: 30%;
+    margin: 40px auto;
+  }
+  .PopUpwrapp .buyToApp ul{
+    margin: 0px;
+      display: flex;
+align-items: center;
+list-style: none;
+padding: 0px;
+  }
+  .PopUpwrapp .buyToApp ul li {
+    margin-right: 20px;
+    display: inline-block;
+    width: auto;
+  }
+  .PopUpwrapp .buyToApp ul li:last-child {
+    margin: 0px;
+  }
+  .PopUpwrapp .closePopup {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+  img {
+    fill: red;
+  }

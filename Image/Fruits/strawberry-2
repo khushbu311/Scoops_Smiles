@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://www.havmor.com/fruits/strawberry-2" />
+<meta name="description" content="Give your day a ‘Berrilicious’ twist with Strawberry Flavoured Ice Cream! This classic creamy Ice Cream will never fail to amaze you with its unique taste." />
+<link rel="mask-icon" href="" />
+<meta property="og:title" content="Strawberry | Havmor" />
+<meta property="og:description" content="Give your day a ‘Berrilicious’ twist with Strawberry Flavoured Ice Cream! This classic creamy Ice Cream will never fail to amaze you with its unique taste." />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/sites/default/files/32x32_0.jpg" type="image/jpeg" />
+<link rel="revision" href="https://www.havmor.com/fruits/strawberry-2" />
+
+    <title>Strawberry | Havmor</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_Q763cgvAe-iUGMX3IaieOShBTPOO3oVP9ME8gEbGlnE.css" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+<link rel="stylesheet" media="all" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_oRhQKE9zD319AyfhnrnmAMMAADrGTn-1YQpJojVW4Ac.css" />
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107848188-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-107848188-1');
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64687577-4"></script>    
+  </head>
+  <body>
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container wrapper">
+
+  
+    <div>
+    <div id="block-havmornew-header">
+  
+    
+      
+            <div><header>
+   <div class="menuWrap">
+      <div class="menuIcon"><img src="https://www.havmor.com/themes/havmornew/images/menu-icon.png"></div>
+      <div class="menuDetailsWrap">
+         <div class="menuCloseBtn"><img src="https://www.havmor.com/themes/havmornew/images/menu-close-img.webp"></div>
+         <div class="menuDetailsContainer">
+            <div class="menuImg">
+               <img class="dWindow" data-desktop="https://www.havmor.com/themes/havmornew/images/menu-img.webp" data-mobile="https://www.havmor.com/themes/havmornew/images/menu-img.webp" src="https://www.havmor.com/themes/havmornew/images/menu-img.webp">
+            </div>
+            <div class="menuListWrap">
+               <ul>
+                  <li>
+                     <a href="https://www.havmor.com/all-products"><span>CHOOSE YOUR</span>Flavour</a>
+                  </li>
+                  <li>
+                     <a href="https://www.havmor.com/about-us">Know Us <span>BETTER</span></a>
+                  </li>
+                  <li class="surpriseme">
+                     <a href="https://www.havmor.com/#surpriseme">Surprise <span>ME</span></a>
+                  </li>
+                  <li class="menuLink4">
+                     <a href="https://www.havmor.com/store-locator"><span>WE’RE</span> Close by </a>
+                  </li>
+<li><a href="https://www.havmor.com/leadership">Meet our <span>SHOWRUNNERS</span></a></li>
+                  <!--<li>
+                     <a href="javascript:;">Blog</a>
+                  </li>-->
+                  <li>
+                     <a href="https://www.havmor.com/contact-us">Reach <span>OUT TO US</span>  </a>
+                  </li>
+</li>
+<li><a href="https://www.havmor.com/contest">Contest</a></li>
+               </ul>
+               <div class="menuCustomerCareWrap">
+                  <div class="menuCustomerCareCol1">
+                     <p><a href="tel:+022 42460606">Customer Care</a>
+                        <span class="contactHome"><a href="tel:+022 42460606"><img src="https://www.havmor.com/themes/havmornew/images/call-icon-header.webp"></a></span>
+                     </p>
+                  </div>
+                  <div class="menuCustomerCareCol2">
+                     <div class="menuSocialIconWrap">
+                        <ul>
+                           <li>
+                              <a href="https://www.facebook.com/HavmorIcecreams" target="_blank" class="menuSocialIcon fbIcon"></a>
+                           </li>
+                           <li>
+                              <a href="https://twitter.com/HavmorIceCreams" target="_blank" class="menuSocialIcon twitterIcon"></a>
+                           </li>
+                           <li>
+                              <a href="https://www.instagram.com/havmoricecreams/" target="_blank" class="menuSocialIcon instaIcon"></a>
+                           </li>
+                           <li>
+                              <a href="https://www.youtube.com/user/HAVMORICECREAM" target="_blank" class="menuSocialIcon youtubeIcon"></a>
+                           </li>
+                           <li>
+                              <a href="https://www.linkedin.com/company/havmor-ice-cream-ltd/" target="_blank" class="menuSocialIcon linkedinIcon"></a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="logo"><a href="https://www.havmor.com/"><img src="https://www.havmor.com/themes/havmornew/images/logo.png" alt="" /></a></div>
+</header></div>
+      
+  </div>
+<div id="block-havmornew-stickyicons">
+  
+    
+      
+            <div><div class="stickyIcon">
+<ul>
+<li class="searchIcon"><a href="javascript:;"><img src="https://www.havmor.com/themes/havmornew/images/search-icon.svg" alt="" /></a></li>
+<li><a href="https://www.havmor.com/store-locator"><img src="https://www.havmor.com/themes/havmornew/images/map-icon.svg" alt="" /></a></li>
+<li><a href="https://www.havmor.com/#surpriseme"><img src="https://www.havmor.com/themes/havmornew/images/sticky-icon3.svg" alt="" /></a></li>		
+</ul>	
+</div></div>
+      
+  </div>
+<div id="block-havmornew-searchpopup">
+  
+    
+      
+            <div><div class="searchBoxWrap">
+
+<div class="searchBoxContainer">
+<div class="searchBoxInputField">
+<input type="text" placeholder="Search your favorite ice cream flavor" id="searchInput" />
+<span class="searchIcon"><img src="https://www.havmor.com/themes/havmornew/images/search-icon.svg" alt=""></span>	
+</div>
+<div class="searchResultBox">
+<ul>
+<li><a href="javascript:;">Triple <span>Choco</span>late</a></li>
+<li><a href="javascript:;"><span>Choco</span> Truffle</a></li>
+<li><a href="javascript:;"><span>Choco</span> Block</a></li>
+<li><a href="javascript:;">Dark <span>Choco</span>late Cone</a></li>
+<li><a href="javascript:;"><span>Choco</span> Brownie Cone</a></li>
+<li><a href="javascript:;"><span>Choco</span>late cone</a></li>			
+</ul>	
+</div>
+<div class="searchClose"><a href="javascript:;">Close Search</a></div>
+
+
+</div>	
+
+<div class="searchBoxOverLay"></div>
+
+</div></div>
+      
+  </div>
+
+  </div>
+
+  
+  
+    <a id="main-content" tabindex="-1"></a>
+    <div class="layout-content  homePage ">
+        <div>
+    <div id="block-productdetailbanner">
+  
+    
+      
+            <div><!--<section class="topBannerSec">
+   <div class="topBannerSlider">
+      <div class="topBannerSlide ">
+         <img alt="" class="dWindow" data-desktop="https://www.havmor.com/themes/havmornew/images/product-banner-desktop.webp" data-mobile="https://www.havmor.com/themes/havmornew/images/product-banner-mobile.webp" src="https://www.havmor.com/themes/havmornew/images/product-banner-desktop.webp" />
+         <div class="topBannerCopy productannerDetailCopy">
+            <h1>Me<br />
+               <span class="product-mocha">time</span>
+            </h1>
+         </div>
+      </div>
+   </div>
+<div class="backToHome"><a href="https://www.havmor.com/">Home</a> - <a href="https://www.havmor.com/products">Choose your Flavour</a> - Strawberry   </div>
+</section>--></div>
+      
+  </div>
+<div id="block-havmornew-content">
+  
+    
+      
+
+<section class="topBannerSec">
+   <div class="topBannerSlider">
+      <div class="topBannerSlide ">
+         <img alt="" class="dWindow" data-desktop="/themes/havmornew/images/product-banner-desktop.webp" data-mobile="/themes/havmornew/images/product-banner-mobile.webp" src="/themes/havmornew/images/product-banner-desktop.webp" />
+         <div class="topBannerCopy productannerDetailCopy">
+            <h1>Me<br />
+               <span class="product-mocha">time</span>
+            </h1>
+         </div>
+      </div>
+   </div>
+      <div class="backToHome"><a href="https://www.havmor.com/">Home</a>  -  <a href="/fruits">
+            <div>Fruits</div>
+      </a> - Strawberry</div>
+    	</section>
+<section class="spotlight">
+   <div class="container-1450 spotlightContainer">
+      <div class="productSlideWrapp">
+         <div class="productPageSlide">
+         	         	         	         	<div class="pSlide">
+         			            <img src="/sites/default/files/styles/502x375/public/gallery/Strawberry%2065%20ml.webp?itok=GovQeWMg" width="702" height="525" alt="" loading="lazy" typeof="foaf:Image" />
+
+
+	        </div>
+	        	                 </div>
+      </div>
+      <div class="ProductPageRightCopy">
+         <h1>Strawberry</h1>
+         <!--<p>White Compound Covering Coated Ice Cream</p>-->
+         <div class="ProductPageRightContent">
+            <p>Give your day a ‘Berrilicious’ twist with Strawberry Flavoured Ice Cream! This classic creamy Ice Cream will never fail to amaze you with its unique taste.</p>
+
+            
+                        <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+            
+         </div>
+      </div>
+   </div>
+</section>
+<section class="productDetailNav">
+   <div class="container-1450">
+      <nav class="pNav">
+         <ul id="tabs">
+         				            <li><a class="active" id="tab1">Ingredients</a></li>
+			            						<li><a id="tab2">Nutritional Information</a></li>
+			                     </ul>
+         <div class="close-div">Close</div>
+      </nav>
+      <div class="getProduct">Product Detail</div>
+   </div>
+</section>
+<section class="productNavDetail">
+	   <div class="tabContent" id="tab1C">
+      <div class="container-1450">
+         <h3>Ingredients</h3>
+         <div class="layers">
+<p>Added Water, Milk Solids, Sugar, Emulsifiers (INS 471, INS 433), Stabilizers (INS 466, INS 412, INS 407a, INS 415), Artificial (Vanilla) Flavoring Substances.</p>
+</div>
+
+<div class="layers">
+<p><strong>Food Allergen:</strong><br />
+Contains Milk.<br />
+May Contain Wheat, Nut, Soy and Sulphite.</p>
+</div>
+
+      </div>
+   </div>
+      <div class="tabContent" id="tab2C">
+      <div class="container-1450">
+         <h3>Nutritional Information</h3>
+         <div class="layers">
+<p><strong>Serving - Single Serve Pack (55 ml).</strong></p>
+</div>
+
+<div class="layers">
+<p><strong>Amount per serving (% RDA*):</strong><br />
+Energy : 64.7 kcal (3.2% RDA), Protein : 1.3 g, Carbohydrate : 7.0 g, Total Sugars : 7.0 g, Added Sugars : 5.1 g (10.2% RDA), Total Fat : 3.5 g (5.2% RDA), Saturated Fat : 2.2 g (10.0% RDA), Cholesterol : 6.8 mg, Trans Fat : 0.0 g (0% RDA), Sodium : 22.0 mg (1.1% RDA).</p>
+</div>
+
+<div class="layers">
+<p><strong>* - % contribution to RDA (Recommended Dietary Allowance) calculated on the basis of 2000 kcal energy, 67 g total fat, 22 g saturated fat, 2 g trans fat, 50 g added sugar and 2000 mg of sodium requirement for average adult per day.</strong></p>
+</div>
+
+      </div>
+   </div>
+   </section>
+<section class="productLike">
+   <div class="container-1450">
+      <h3>You May Also Like</h3>
+      <div class="views-element-container"><div class="productLikeContainer js-view-dom-id-91dd06d81788235d32537c40bae0106694ac7790b0ba589fda4cae16f0685b86">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="productLikeWrapp"><a class="mayalsolike" href="/chocolate/choco-vanilla"><img src="/sites/default/files/styles/315x310/public/products/Choco%20Vanilla_0.webp?itok=miIHF3Ys"></a>            
+                     <p>Choco Vanilla</p>
+                     <a class="iceCreamBuy">buy now</a>
+           </div>
+    <div class="productLikeWrapp"><a class="mayalsolike" href="/chocolate/dark-chocolate-shotties"><img src="/sites/default/files/styles/315x310/public/products/Dark-Chocolate-With-BG.webp?itok=msVtXWyp"></a>            
+                     <p>Dark Chocolate Shotties</p>
+                     <a class="iceCreamBuy">buy now</a>
+           </div>
+    <div class="productLikeWrapp"><a class="mayalsolike" href="/chocolate/sizzling-brownie-volcano"><img src="/sites/default/files/styles/315x310/public/products/Sizzling%20Brownie%20Volcano.jpg?itok=_hB5D2dT"></a>            
+                     <p>Sizzling Brownie Volcano</p>
+                     <a class="iceCreamBuy">buy now</a>
+           </div>
+    <div class="productLikeWrapp"><a class="mayalsolike" href="/dry-fruits/kesar-pista-1"><img src="/sites/default/files/styles/315x310/public/products/Kesar%20Pista%20100%20ml%20cup%20Sugerfree_0.webp?itok=gi0J7jzr"></a>            
+                     <p>Kesar Pista</p>
+                     <a class="iceCreamBuy">buy now</a>
+           </div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+   </div>
+</section>
+<section class="buyNowPopUp" style="display:none;">
+				   <div class="PopUpwrapp">
+					  <h2>ENTER CITY</h2>
+					  <!--<input type="text" name="city">-->
+					  <select name="city" class="form-select" aria-required="true" id="city">
+							<option value="" selected="selected">Select City</option>
+							<option value="Aligarh">Aligarh</option>
+							<option value="Ahmedabad">Ahmedabad</option>
+							<option value="Bangalore">Bangalore</option>
+							<option value="Chennai">Chennai</option>
+							<option value="Delhi">Delhi</option>
+							<option value="Hyderabad">Hyderabad</option>
+							<option value="Kolkata">Kolkata</option>
+							<option value="Mumbai">Mumbai</option>
+							<option value="Pune">Pune</option>
+							<option value="Agra">Agra</option>
+							<option value="Amritsar">Amritsar</option>
+							<option value="Aurangabad">Aurangabad</option>
+							<option value="Bhopal">Bhopal</option>
+							<option value="Bhubaneswar">Bhubaneswar</option>
+							<option value="Chandigarh">Chandigarh</option>
+							<option value="Coimbatore">Coimbatore</option>
+							<option value="Dhanbad">Dhanbad</option>
+							<option value="Dharwad">Dharwad</option>
+							<option value="Faridabad">Faridabad</option>
+							<option value="Ghaziabad">Ghaziabad</option>
+							<option value="Gurgaon">Gurgaon</option>
+							<option value="Gwalior">Gwalior</option>
+							<option value="Hubli">Hubli</option>
+							<option value="Indore">Indore</option>
+							<option value="Jabalpur">Jabalpur</option>
+							<option value="Jaipur">Jaipur</option>
+							<option value="Jodhpur">Jodhpur</option>
+							<option value="Kanpur">Kanpur</option>
+							<option value="Kota">Kota</option>
+							<option value="Lucknow">Lucknow</option>
+							<option value="Ludhiana">Ludhiana</option>
+							<option value="Madurai">Madurai</option>
+							<option value="Meerut">Meerut</option>
+							<option value="Moradabad">Moradabad</option>
+							<option value="Mysore">Mysore</option>
+							<option value="Nagpur">Nagpur</option>
+							<option value="Nashik">Nashik</option>
+							<option value="Patna">Patna</option>
+							<option value="Prayagraj">Prayagraj</option>
+							<option value="Raipur">Raipur</option>
+							<option value="Rajkot">Rajkot</option>
+							<option value="Ranchi">Ranchi</option>
+							<option value="Rangareddy">Rangareddy</option>
+							<option value="Solapur">Solapur</option>
+							<option value="Srinagar">Srinagar</option>
+							<option value="Surat">Surat</option>
+							<option value="Vadodara">Vadodara</option>
+							<option value="Varanasi">Varanasi</option>
+							<option value="Vijayawada">Vijayawada</option>
+							<option value="Visakhapatnam">Visakhapatnam</option>
+							<option value="Thane">Thane</option>
+							<option value="Pimpri-Chinwad">Pimpri-Chinwad</option>
+							<option value="Jalandar">Jalandar</option>
+							<option value="Thiruvananthapuram">Thiruvananthapuram</option>
+							<option value="Noida">Noida</option>
+							<option value="Ajmer">Ajmer</option>
+							<option value="Jamnagar">Jamnagar</option>
+						</select>
+					  <p>Your Order through Following options.</p>
+					  <div class="buyToApp">
+						 <ul>
+							<li><img src="/themes/havmornew/images/zomato.webp"></li>
+							<li><img src="/themes/havmornew/images/swiggy.webp"></li>
+							<!--<li><a href=""><img src="/themes/havmornew/images/big-basket.webp"></a></li>
+							<li><a href=""><img src="/themes/havmornew/images/milk-basket.webp"></a></li>-->
+						 </ul>
+					  </div>
+					  <a href="#" class="closePopup"><img src="/themes/havmornew/images/close-popup.webp"></a>
+				   </div>
+				</section>
+  </div>
+<div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+    </div>
+    
+    
+  
+      <footer role="contentinfo">
+      <div class="footerWrap">
+        <div>
+    <div id="block-havmornew-footersitemap">
+  
+    
+      
+            <div><div class="footerCol">
+          <h4>CHOOSE YOUR PALETTE</h4>
+          <ul>
+            <li><a href="https://www.havmor.com/chocolate">Chocolate</a></li>
+            <li><a href="https://www.havmor.com/dry-fruits">Dry Fruits</a></li>
+            <li><a href="https://www.havmor.com/indian-traditional">Indian Traditional</a></li>
+            <li><a href="https://www.havmor.com/fruits">Fruits</a></li>
+            <li><a href="https://www.havmor.com/international-others">International</a></li>
+          </ul>
+
+        </div>
+
+       <!-- <div class="footerCol">
+          <h4>CHOOSE YOUR STYLE</h4>
+          <ul>
+            <li><a href="javascript:;">World Cone</a></li>
+            <li><a href="javascript:;">Candies</a></li>
+            <li><a href="javascript:;">Cones</a></li>
+            <li><a href="javascript:;">Kulfis</a></li>
+            <li><a href="javascript:;">Sundae Cups</a></li>
+            <li><a href="javascript:;">Cups</a></li>
+            <li><a href="javascript:;">Jumbo Cups</a></li>
+            <li><a href="javascript:;">BlockBusters</a></li>
+            <li><a href="javascript:;">Novelties</a></li>
+            
+          </ul>
+          
+        </div>
+        <div class="footerCol">
+          <h4>CHOOSE YOUR STYLE</h4>
+          <ul>
+            <li><a href="javascript:;">World Cone</a></li>
+            <li><a href="javascript:;">Candies</a></li>
+            <li><a href="javascript:;">Cones</a></li>
+            <li><a href="javascript:;">Kulfis</a></li>
+            <li><a href="javascript:;">Sundae Cups</a></li>
+            <li><a href="javascript:;">Cups</a></li>
+            <li><a href="javascript:;">Jumbo Cups</a></li>
+            <li><a href="javascript:;">BlockBusters</a></li>
+            <li><a href="javascript:;">Novelties</a></li>
+            
+          </ul>
+          
+        </div>
+        <div class="footerCol">
+          <ul>
+            <li><a href="javascript:;">Signature Cups</a></li>
+            <li><a href="javascript:;">Sugar-free</a></li>
+            <li><a href="javascript:;">Drinks of Summer</a></li>
+            <li><a href="javascript:;">Fruit Candies</a></li>
+            <li><a href="javascript:;">Ice Creams Cakes</a></li>
+            <li><a href="javascript:;">Simply Tub (1L)</a></li>
+            <li><a href="javascript:;">COMBO PACKS</a></li>
+            <li><a href="javascript:;">Party Packs </a></li>
+            <li><a href="javascript:;">THE SIGNATURE COLLECTION</a></li>
+            
+          </ul>
+          
+        </div> -->   
+        <div class="footerCol">
+          <h4>KNOW US BETTER</h4>
+          <ul>
+            <li><a href="https://www.havmor.com/about-us">About Havmor </a></li>
+            <li><a href="https://www.havmor.com/awards">Awards</a></li>
+            <!--<li><a href="https://www.havmor.com/sites/default/files/2021-11/CSR%20Policy%2019.8.2021.pdf" target="_blank">CSR</a></li>-->
+			<li><a href="https://www.havmor.com/sites/default/files/2021-11/Havmor_CSR_Policy_Final.pdf" target="_blank">CSR</a></li>
+            <li><a href="https://www.havmor.com/career">Career</a></li>
+            <li><a href="https://www.havmor.com/privacy-policy">Privacy Policy</a></li>
+            <li><a href="https://www.havmor.com/faq">FAQ</a></li>
+            <li><a href="https://www.havmor.com/terms-of-use">Terms of Use</a></li>
+            <li><a href="https://www.havmor.com/sites/default/files/2021-11/annual-report-2020-21.pdf" target="_blank">Annual Return</a></li>
+            
+          </ul>
+          
+        </div>
+        <div class="footerCol">
+          <h4>SURPRISE ME</h4>
+          <ul>
+            <li><a href="https://www.havmor.com/#surpriseme">Party Time</a></li>
+            <!--<li><a href="javascript:;">Offers</a></li>-->
+            <li><a href="https://www.havmor.com/thecoolestsummerjob">Contests</a></li>
+            <!--li><a href="https://havmor.com/thecoolestsummerjob/">Contests</a></li-->
+            
+            
+          </ul>
+		  <h5><a href="https://www.havmor.com/leadership">Meet Our Showrunners</a></h5>
+<!--<h5><a href="https://www.havmor.com/contact-us">Contact Us</a></h5>-->
+<h5><a href="https://www.havmor.com/store-locator">We're Close By</a></h5>
+
+          <!--<h5><a href="javascript:;">BLOG</a></h5>-->
+          <!--<h5><a href="javascript:;">WE'RE CLOSE BY</a></h5>-->
+          
+        </div>
+        <div class="footerCol">
+          <h4><a href="https://www.havmor.com/contact-us">REACH OUT TO US</a></h4>
+          <ul>
+            <li><a href="https://www.havmor.com/franchise">Become Franchiser</a></li>
+            <!--<li><a href="javascript:;">Be Partner</a></li>-->
+            
+          </ul>
+          
+        </div>
+
+        <div class="footerCol2">
+          <div class="officeAddressInfo">
+            <h3>Office Address</h3>
+            <p>2nd floor, Commerce House 4, <br>
+              besides shell petrol pump, Prahladnagar<br>
+              Anandnagar road, Ahmedabad-380015,<br>
+            Corporate office : 079 4020 9000</p>
+          </div>  
+
+          <div class="customerCareInfo">
+            <h4>Customer Care</h4>
+            <p><a href="tel:02242460606">022 4246 0606</a></p>
+            <ul class="footerSocialIconList">
+				<li>
+					<a href="https://www.facebook.com/HavmorIcecreams" target="_blank" class="socialIcon fbIcon"></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/HavmorIceCreams" target="_blank" class="socialIcon twitterIcon"></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/havmoricecreams/" target="_blank" class="socialIcon instaIcon"></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/user/HAVMORICECREAM" target="_blank" class="socialIcon youtubeIcon"></a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/company/havmor-ice-cream-ltd/" target="_blank" class="socialIcon linkedinIcon"></a>
+				</li>
+				  
+            </ul>
+          </div>  
+
+        </div></div>
+      
+  </div>
+
+  </div>
+
+      </div>
+    </footer>
+  
+</div>
+  </div>
+
+    
+    <script src="https://unpkg.com/webp-hero@0.0.0-dev.21/dist-cjs/polyfills.js"></script>
+<script src="https://unpkg.com/webp-hero@0.0.0-dev.21/dist-cjs/webp-hero.bundle.js"></script>
+<script src="/themes/havmornew/js/lib/jquery-1.11.2.js?raydjk"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="/themes/havmornew/js/lib/jquery.mCustomScrollbar.concat.min.js?raydjk"></script>
+<script src="/themes/havmornew/js/customJsbundle.js?raydjk"></script>
+<script src="/themes/havmornew/js/backend.js?raydjk"></script>
+
+  </body>
+</html>

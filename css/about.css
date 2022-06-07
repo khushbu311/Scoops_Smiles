@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.uper {
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: abril;
+    src: url(../Image/Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+
+.uper p {
+    color: red;
+    font-size: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    z-index: -1;
+    margin: 0px;
+}
+
+.uper img {
+    position: absolute;
+    height: 50%;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+
+.sec1 img {
+    float: left;
+    height: 400px;
+    width: 500px;
+}
+
+.container {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    height: 400px;
+    margin-right: 40px;
+}
+
+.sec1 {
+    font-size: 19px;
+    margin-top: 0px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sec2 {
+    font-size: 19px;
+    margin-top: 0px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#h1 {
+    margin-bottom: 0px;
+    font-size: 3.4rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sec2 img {
+    float: right;
+    height: 400px;
+    width: 500px;
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body,
+    html {
+        margin: 0% 0px 0px 0px;
+        padding: 0%;
+    }
+    
+    @font-face {
+        font-family: abril;
+        src: url(./Image/Abril_Fatface/AbrilFatface-Regular.ttf);
+    }
+    
+    .productwrap {
+        display: inline-block;
+        width: 300px;
+    }
+    
+    .productwrap img {
+        width: 100%;
+    }
+    
+    .card {
+        height: 315px;
+        position: relative;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 10;
+        display: inline-block;
+    }
+    
+    .cardbody p {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    
+    .btn {
+        color: #d3002b;
+        border: 1px solid #d3002b;
+        border-radius: 25px;
+        display: inline-block;
+        padding: 0px 15px;
+        text-decoration: none;
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-family: "GothamRoundedMedium";
+        font-size: 1.2rem;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    .card::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+    }
+    
+    .card::before {
+        height: 265px;
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 1px;
+        height: 380px;
+    }
+    
+    .start p {
+        background-color: bisque;
+    }
+    
+    .start {
+        margin: 0px;
+        padding-top: 150px;
+        z-index: -1;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        background-image: url("./Image/b1.jpg");
+        text-align: center;
+        font-size: 8rem;
+        color: rgb(36, 3, 58);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-variant-ligatures: additional-ligatures;
+    }
+</style>
+
+<body>
+    <div class="start">
+        <p>
+            Get To Gather
+        </p>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="productwrap">
+            <img src="./Image//Gettogather/AMerican-Mud-Cake-With-BG.webp" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+            <b><p> AMerican-Mud-Cake-With</p>
+          <p>Rs.250</p></b>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+
+    </div>
+
+    <div class="card" style="width: 18rem;">
+
+        <div class="productwrap">
+            <img src="./Image/Gettogather/Butter-Sotch-with-BG.webp" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+            <b><p>Butter-Sotch</p>
+          <p>Rs.250</p></b>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="productwrap">
+            <img src="./Image/Gettogather/Choco Brownie_0.webp" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+            <b><p>Choco Brownie</p>
+          <p>Rs.250</p></b>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="productwrap">
+            <img src="./Image/Gettogather/Cranberry-and-nuts-With-BG.webp" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+            <b><p>Cranberry and nuts</p>
+          <p>Rs.250</p></b>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="productwrap">
+            <img src="./Image/Gettogather/Dry Fruit Malai Tub.webp" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+            <b><p>Dry Fruit Malai Tub</p>
+          <p>Rs.250</p></b>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="productwrap">
+            <img src="./Image/Gettogather/Maple-Walnut-Praline-With-BG.webp" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+            <b><p>Maple-Walnut-Praline-With-BG</p>
+              <p>Rs.250</p></b>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="productwrap">
+            <img src="./Image/Gettogather/Mocha Brownie fudge.webp" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+            <b><p>Mocha Brownie fudge</p>
+          <p>Rs.250</p></b>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="productwrap">
+            <img src="./Image/Gettogather/Nutty Belgian Dark Chocolate.webp" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+            <b><p>Nutty Belgian Dark Chocolat</p>
+          <p>Rs.250</p></b>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="productwrap">
+            <img src="./Image/Gettogather/Taj-Mahal-with-BG.webp" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+            <b><p>/Taj-Mahal-with-BGat</p>
+          <p>Rs.250</p></b>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>

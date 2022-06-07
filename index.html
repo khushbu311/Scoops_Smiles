@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--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-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Scoopd&Smile</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $(".list").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+    <script>
+        (function() {
+
+            function Slideshow(element) {
+                this.el = document.querySelector(element);
+                this.init();
+            }
+
+            Slideshow.prototype = {
+                init: function() {
+                    this.wrapper = this.el.querySelector(".slider-wrapper");
+                    this.slides = this.el.querySelectorAll(".slide");
+                    this.previous = this.el.querySelector(".slider-previous");
+                    this.next = this.el.querySelector(".slider-next");
+                    this.index = 0;
+                    this.total = this.slides.length;
+                    this.timer = null;
+
+                    this.action();
+                    this.stopStart();
+                },
+                _slideTo: function(slide) {
+                    var currentSlide = this.slides[slide];
+                    currentSlide.style.opacity = 1;
+
+                    for (var i = 0; i < this.slides.length; i++) {
+                        var slide = this.slides[i];
+                        if (slide !== currentSlide) {
+                            slide.style.opacity = 0;
+                        }
+                    }
+                },
+                action: function() {
+                    var self = this;
+                    self.timer = setInterval(function() {
+                        self.index++;
+                        if (self.index == self.slides.length) {
+                            self.index = 0;
+                        }
+                        self._slideTo(self.index);
+
+                    }, 3000);
+                },
+                stopStart: function() {
+                    var self = this;
+                    self.el.addEventListener("mouseover", function() {
+                        clearInterval(self.timer);
+                        self.timer = null;
+
+                    }, false);
+                    self.el.addEventListener("mouseout", function() {
+                        self.action();
+
+                    }, false);
+                }
+
+
+            };
+
+            document.addEventListener("DOMContentLoaded", function() {
+
+                var slider = new Slideshow("#main-slider");
+
+            });
+
+
+        })();
+    </script>
+
+</head>
+
+<body>
+    <div class="slider" id="main-slider">
+
+        <div class="slider-wrapper">
+            <!-- innermost wrapper element -->
+            <img src="../Scoops&Smiles/Image/b1.jpg" alt="First" class="slide" />
+            <!-- slides -->
+            <img src="./Image/b2.jpg" alt="Second" class="slide" />
+            <img src="./Image/b3.jpg" alt="Third" class="slide" />
+            <div class="navbar">
+                <img id="logo" src="./Image/scoop.jpg" alt="">
+
+                <ul id="nav">
+                    <li><a href="./login.html">Login</a></li>
+                    <li><a href="#celebrate">Celebration</a></li>
+                    <li><a href="./aboutus.html">About </a></li>
+                    <li>
+                        <a> <u>Search:</u> </a>
+                    </li>
+                </ul>
+                <input id="myInput" type="text" placeholder="Search..">
+                <h1 id="heading">
+                    <center> I scream. You scream. We all scream for ice cream.</center>
+                </h1>
+            </div>
+        </div>
+
+
+    </div>
+    <div>
+        <h1 id="h1">Choose Your</h1>
+        <span>FLover</span>
+    </div>
+    <div class="category">
+        <ul class="list">
+            <li>
+                <img src="./Image/menu/Chocolate.jpg" alt="">
+                <p>
+                    <a href="chocolate.html">Chocolate</a>
+                </p>
+            </li>
+            <li>
+                <img src="./Image/menu/Dry fruit.jpg">
+                <p>
+                    <a href="#">Dry Fruit</a>
+                </p>
+            </li>
+            <li>
+                <img src="./Image/menu/Fruits.jpg" alt="">
+                <p>
+                    <a href="#">Fruits</a>
+                </p>
+            </li>
+            <li>
+                <img src="./Image/menu/Indian traditional.jpg">
+                <p>
+                    <a href="#">Indian Traditional</a>
+                </p>
+            </li>
+            <li>
+                <img src="./Image/menu/international.jpg">
+                <p>
+                    <a href="#">International</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <section class="section">
+        <div class="wrap">
+            <div class="heading">
+                <h2 id="h2">
+                    best
+                </h2>
+                <span>
+          Sellers
+        </span>
+
+                <div class="homeProductBestList">
+
+                    <ul>
+
+                        <li>
+                            <div class="homeProductBestListImgWrap">
+                                <a><img src="./Image/chocolate/Chocolate cone_0.webp" alt="Chocolate Cone "></a>
+                            </div>
+                            <p>Chocolate Cone </p>
+                            <a href="#" class="btn">Buy Now</a></li>
+                        <li>
+                            <div class="homeProductBestListImgWrap">
+                                <a><img src="./Image/Aam-Candy-listing.webp" alt="Aam "></a>
+                            </div>
+                            <p>Aam </p>
+                            <a href="#" class="btn">Buy Now</a></li>
+                        <li>
+                            <div class="homeProductBestListImgWrap">
+                                <a><img src="./Image/Zulubar_.webp" alt="Zulubar "></a>
+                            </div>
+                            <p>Zulubar </p>
+                            <a href="#" class="btn">Buy Now</a></li>
+                        <li>
+                            <div class="homeProductBestListImgWrap">
+                                <a><img src="./Image/Triple Chocolate-00.webp" alt="Triple Chocolate "></a>
+                            </div>
+                            <p>Triple Chocolate </p>
+                            <a href="#" class="btn">Buy Now</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="celebration" id="celebrate">
+        <div class="confirm">
+            <div class="c1">
+                <p id="hh2">Celebrate <span>with</span></p>
+                <h4>Make every event a celebration <br> with Scoops&Smiles ice creams</h4>
+                <p>Weddings, birthdays, anniversaries, or any get-together; memorable occasions deserve mouth-watering flavours. So, place a Party Order, and we’ll bring to the bowl a variety of ice cream flavours that compliments every event. Havmor adds
+                    MORE scoops of sweetness to all your celebrations.</p>
+                <p>Make your party memorable with Havmor ice creams</p>
+            </div>
+            <div class="ff">
+
+                <div class="formSecImg">
+                    <img src="./Image/panda.webp" alt="">
+                </div>
+                <div class="formWrap">
+                    <h5 style="font-size: 1.5rem;">Let`s connect<br> Drop your queries below
+                    </h5>
+
+                    <form action="" class="formc">
+
+                        <div class="class1">
+                            <input autocomplete="off" pattern="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$" data-webform-pattern-error="Please Enter Valid Name" data-drupal-selector="edit-name" data-msg-maxlength="Name field has a maximum length of 255." data-msg-required="Name field is required."
+                                data-msg-pattern="Please Enter Valid Name" type="text" id="edit-name" name="name" value="" size="60" maxlength="255" placeholder="Name" class="form-text required" required="required" aria-required="true">
+
+                        </div>
+                        <div class="class1">
+                            <input autocomplete="off" data-drupal-selector="edit-email-id" data-msg-email="Email ID does not contain a valid email." data-msg-maxlength="Email ID field has a maximum length of 254." data-msg-required="Email ID field is required." type="email" id="edit-email-id"
+                                name="email_id" value="" size="60" maxlength="254" placeholder="Email ID" class="form-email required" required="required" aria-required="true">
+
+                        </div>
+                        <div class="class1">
+                            <select data-drupal-selector="edit-service" data-msg-required="Service field is required." id="edit-service" name="service" class="form-select required" required="required" aria-required="true"><option value="" selected="selected">Select the Service Needed</option><option value="Party Order">Party Order</option><option value="Catering">Catering</option></select>
+                        </div>
+                        <div class="class1">
+                            <select data-drupal-selector="edit-state" data-msg-required="State field is required." id="edit-state" name="state" class="form-select required" required="required" aria-required="true"><option value="" selected="selected">State</option><option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option><option value="Andhra Pradesh">Andhra Pradesh</option><option value="Arunachal Pradesh">Arunachal Pradesh</option><option value="Assam">Assam</option><option value="Bihar">Bihar</option><option value="Chandigarh">Chandigarh</option><option value="Chhattisgarh">Chhattisgarh</option><option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option><option value="Daman and Diu">Daman and Diu</option><option value="Delhi">Delhi</option><option value="Goa">Goa</option><option value="Gujarat">Gujarat</option><option value="Haryana">Haryana</option><option value="Himachal Pradesh">Himachal Pradesh</option><option value="Jammu and Kashmir">Jammu and Kashmir</option><option value="Jharkhand">Jharkhand</option><option value="Karnataka">Karnataka</option><option value="Kerala">Kerala</option><option value="Ladakh">Ladakh</option><option value="Lakshadweep">Lakshadweep</option><option value="Madhya Pradesh">Madhya Pradesh</option><option value="Maharashtra">Maharashtra</option><option value="Manipur">Manipur</option><option value="Meghalaya">Meghalaya</option><option value="Mizoram">Mizoram</option><option value="Nagaland">Nagaland</option><option value="Odisha">Odisha</option><option value="Puducherry">Puducherry</option><option value="Punjab">Punjab</option><option value="Rajasthan">Rajasthan</option><option value="Sikkim">Sikkim</option><option value="Tamil Nadu">Tamil Nadu</option><option value="Telangana">Telangana</option><option value="Tripura">Tripura</option><option value="Uttar Pradesh">Uttar Pradesh</option><option value="Uttarakhand">Uttarakhand</option><option value="West Bengal">West Bengal</option></select>
+                        </div>
+                        <div class="class1">
+                            <input autocomplete="off" pattern="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$" data-webform-pattern-error="Please Enter Valid City" data-drupal-selector="edit-city" data-msg-maxlength="City field has a maximum length of 255." data-msg-required="City field is required."
+                                data-msg-pattern="Please Enter Valid City" type="text" id="edit-city" name="city" value="" size="60" maxlength="255" placeholder="City" class="form-text required" required="required" aria-required="true">
+
+                        </div>
+                        <div class="class1">
+                            <input data-drupal-selector="edit-no-of-guests" data-msg-min="The value in No of Guests has to be greater than 1." data-msg-max="The value in No of Guests has to be less than 10000." data-msg-required="No of Guests field is required." type="number" id="edit-no-of-guests"
+                                name="no_of_guests" value="" step="any" min="1" max="10000" placeholder="Expected Number of Guests" class="form-number required" required="required" aria-required="true">
+
+                        </div>
+                        <div class="class1">
+                            <input placeholder="Select Date" type="date" data-drupal-selector="edit-select-date" data-drupal-date-format="Y-m-d" data-msg-required="Select Date field is required." id="edit-select-date" name="select_date" value="" class="form-date required" required="required"
+                                aria-required="true">
+
+                        </div>
+                        <div class="classb" style="background: #eb0013;width: 130px;font-size: 2rem;color: #fff;padding: 12px 0px;border-radius: 25px; padding-left: 50px;" data-drupal-selector="edit-actions-submit" type="submit" id="edit-actions-submit" name="op" value="Send">
+                            Send
+                        </div>
+                        <input autocomplete="off" data-drupal-selector="form-qcvza-h3k0sshofx7pvuiznvwhlw-4mos-pgn8q-njs" type="hidden" name="form_build_id" value="form-qCVZa-H3k0sSHOfX7pvUIZnvWHLw-4Mos_PgN8Q-njs">
+                        <input data-drupal-selector="edit-webform-submission-surprize-me-add-form" type="hidden" name="form_id" value="webform_submission_surprize_me_add_form">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

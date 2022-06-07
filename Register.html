@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        @font-face {
+            font-family: abril;
+            src: url(./Image/Abril_Fatface/AbrilFatface-Regular.ttf);
+        }
+        
+        body {
+            background-image: url(./Image/b4.avif);
+            background-size: cover;
+            width: 100%;
+            margin: 0px 0px 0px 0px;
+            padding: 0px;
+        }
+        
+        img {
+            margin-left: 500px;
+            align-content: center;
+            height: 150px;
+            width: 200px;
+            border-radius: 50%;
+        }
+        
+        .logo {
+            align-self: center;
+            margin-top: 10px;
+            width: 150px;
+            height: 100px;
+        }
+        
+        form {
+            background-color: white;
+            margin-left: 350px;
+            position: relative;
+            width: 500px;
+            height: 440px;
+            box-shadow: -3px 0px 38px -9px rgba(0, 0, 0, 0.53);
+            border-radius: 20px;
+            float: center;
+            align-content: center;
+            text-align: center;
+        }
+        
+        .container {
+            margin-bottom: 10px;
+            font-size: 15px;
+            margin-left: 150px;
+            text-align: left;
+            font-family: abril;
+        }
+        
+        .container a {
+            margin-top: 20px;
+            padding-bottom: 20px;
+            padding-top: 30px;
+        }
+        
+        #submit {
+            margin-top: 10px;
+            background: linear-gradient(to bottom, #f7f8fa, #a2a5a8);
+            border-radius: 10px;
+            width: 150px;
+            font-size: 18px;
+            font-family: abril;
+            position: relative;
+            border: 1px solid black;
+        }
+        
+        span {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="outer">
+        <div class="logo">
+            <a href="../Scoops&Smiles/Home.html"><img src="./Image/logo2.jpg" alt=""></a>
+        </div>
+        <form action="../Scoops&Smiles/login.html" onsubmit="return validate()" novalidate>
+            <h1>Create Account</h1>
+            <div class="first">
+                <div class="container">
+                    <label for="inputfnama" class="flable">First Name</label>
+                    <div class="col">
+
+                        <input type="text" onblur="validate1()" class="name" id="fname" name="fname" maxlength="60" placeholder="firstname" required>
+                        <span id="error1"></span>
+                    </div>
+                </div>
+                <div class="container">
+                    <label for="inputlnama" class="flable">LastName</label>
+                    <div class="col">
+                        <input type="text" onblur="validate2()" class="name" id="lname" name="lname" maxlength="60" placeholder="Last name" required>
+                        <span id="error2"></span>
+                    </div>
+                </div>
+                <div class="container">
+                    <label for="inputlnama" class="flable">Mobile No:</label>
+                    <div class="col">
+                        <input type="text" onblur="validate3()" class="lname" id="tel" name="lname" maxlength="10" required>
+                        <span id="error3"></span>
+                    </div>
+                </div>
+                <div class="container">
+                    <label for="inputEmail3" class="flable">Email</label>
+                    <div class="col">
+                        <input type="email" onblur="validate4()" class="form-control" id="email" name="emailid" maxlength="60" placeholder="Email" required>
+                        <span id="error4"></span>
+                    </div>
+                </div>
+                <div class="container">
+                    <label for="inputPassword3" class="flable">Password</label>
+                    <div class="col">
+                        <input type="password" onblur="validate5()" class="form-control" id="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}" maxlength="16" placeholder="At least 6 characters" required>
+                        <span id="error5"></span>
+                    </div>
+                </div>
+                <div class="container">
+                    <label for="inputPassword3" class="flable">Confirm Password</label>
+                    <div class="col">
+                        <input type="password" onblur="validate6()" class="form-control" id="cpass" maxlength="16" placeholder="At least 6 characters" required>
+                        <span id="error6"></span>
+                    </div>
+
+                </div>
+                <a href="#" style="color: blue;">Forgot Password?</a><br>
+
+                <button type="submit" onlick="" id="submit" class="btn"><a style="background: -o-linear-gradient(rgb(241, 175, 175)); color: black;" href="../ColdCravings/login.html"> Continue</a></button></a>
+            </div>
+        </form>
+
+    </div>
+    <script src="rvalidaton.js"></script>
+</body>
+
+</html>

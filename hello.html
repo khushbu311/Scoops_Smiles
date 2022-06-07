@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section {
+            background: #d3002b;
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 50px;
+            float: left;
+            color: #fff;
+            font-size: 2rem;
+        }
+        
+        .flavour {
+            width: 20%;
+            position: relative;
+            padding: 28px 0px 22px;
+            font-size: 1.5rem;
+            color: #fff;
+            font-family: "abril";
+            background-size: 10%;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .filterdetail {
+            float: left;
+            width: 100%;
+            height: 100px;
+            background: #fff;
+        }
+        
+        .filterdetail .flavourdetail {
+            width: 100px;
+            height: 500px;
+            float: left;
+            text-align: center;
+            padding-top: 35px;
+            padding-left: 40px;
+            position: sticky;
+            margin-bottom: 10px;
+            top: 0;
+            list-style: none;
+        }
+        
+        .filterdetail .flavourdetail ul {
+            list-style: none;
+        }
+        
+        .filterdetail .flavourdetail ul li {
+            display: flex;
+            padding-left: 10px;
+            text-align: left;
+            text-align: center;
+            align-items: center;
+            padding-left: 50px;
+            margin-bottom: 45px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .filterdetail .flavourdetail ul li input[type="radio"]:checked+label span {
+            background: url(../Scoops&Smiles/Image/active-radio.webp) center no-repeat;
+        }
+        
+        .filterdetail .flavourdetail ul li input[type="radio"]+label {
+            font-size: 1.2rem;
+        }
+        
+        .filterdetail .flavourdetail ul li input[type="radio"]+label span {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            margin: -1px 25px 0 0;
+            vertical-align: middle;
+            background: url(/themes/havmornew/images/radio.webp) center no-repeat;
+            cursor: pointer;
+        }
+        
+        .productcontent {
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="productcontent">
+
+        <section class="section">
+            <div class="flover">
+                Select Flover
+            </div>
+        </section>
+        <section class="filterdetail">
+            <div class="floverdetail">
+                <ul>
+                    <li>
+                        <input type="radio" name="filter" id="filter1">
+                        <label for="filter1">
+                    <span></span>
+                    All
+                    </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="filter" id="filter2">
+                        <label for="filter2">
+                    <span></span>
+                    Chocolate
+                    </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="filter" id="filter3">
+                        <label for="filter3">
+                    <span></span>
+                    Dryfruits
+                    </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="filter" id="filter4">
+                        <label for="filter4">
+                    Indian Traditional
+                    </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="filter" id="filter5">
+                        <label for="filter5">
+                    <span></span>
+                    Fruits
+                    </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="filter" id="filter6">
+                        <label for="filter6">
+                    <span></span>
+                    International
+                    </label>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+</body>
+
+</html>

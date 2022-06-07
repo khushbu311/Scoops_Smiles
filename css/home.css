@@ -1,0 +1,311 @@
+        body,
+        html {
+            height: 100%;
+            margin: 0%;
+            padding: 0%;
+            margin-right: 0%;
+            overflow-x: hidden;
+        }
+        
+        .slider-wrapper {
+            width: 100%;
+            height: 500px;
+            position: relative;
+        }
+        
+        .slider-wrapper>.slide:first-child {
+            opacity: 1;
+        }
+        
+        .slider {
+            width: 100%;
+            margin: 0px;
+        }
+        
+        .slide {
+            z-index: -1;
+            float: left;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 3s linear;
+        }
+        /*   .bground {
+                margin: 0%;
+                padding: 0%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                background-position: center;
+                height: 500px;
+                background-image: url("../Image/b1.jpg");
+                opacity: 1; */
+        
+        #logo {
+            border: 1px;
+            opacity: 1;
+            border-radius: 150px;
+            height: 300px;
+            width: 300px;
+            display: inline-block;
+        }
+        
+        #myInput {
+            float: right;
+            width: 300px;
+            height: 40px;
+            margin-top: 75px;
+            margin-right: 30px;
+            padding: 0px;
+            border-radius: 0px;
+        }
+        
+        .navbar {
+            width: 100%;
+        }
+        
+        .navbar ul {
+            float: right;
+            margin-left: 300px;
+            width: 75%;
+            margin-right: 0px;
+        }
+        
+        #nav {
+            position: absolute;
+            height: 80px;
+            float: flex-end;
+            width: 60%;
+            padding-right: 0px;
+            top: 0px;
+            margin-right: 0px;
+            opacity: 1;
+            margin-top: 60px;
+        }
+        
+        .navbar li {
+            display: inline-block;
+            margin-right: 0px;
+        }
+        
+        .navbar li a {
+            color: hsl(207, 85%, 3%);
+            font-size: 40px;
+            padding: 10px;
+            float: right;
+        }
+        
+        @font-face {
+            font-family: pacific;
+            src: url(../Image/Pacifico-Regular.ttf);
+        }
+        
+        #heading {
+            border: 0px;
+            font-display: center;
+            font-size: 50px;
+            font-family: pacific;
+        }
+        
+        @font-face {
+            font-family: abril;
+            src: url(../Image/Abril_Fatface/AbrilFatface-Regular.ttf);
+        }
+        
+        #h1 {
+            color: #f3000c;
+            font-size: 4.6rem;
+            margin-bottom: 0px;
+            line-height: 40px;
+            text-align: center;
+        }
+        
+        span {
+            display: block;
+            display: block;
+            color: #000;
+            margin: 3px;
+            margin-right: 0px;
+            font-size: 2.7rem;
+            line-height: 100%;
+            font-family: "GothamRoundedBook";
+            font-weight: 300;
+            text-align: right;
+            margin-right: 35%;
+            text-transform: uppercase;
+        }
+        
+        .list li img {
+            width: 300px;
+        }
+        
+        .list {
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .list li p a {
+            color: #000;
+            font-size: 30px;
+            text-align: center;
+            margin-left: 70px;
+        }
+        
+        .list li {
+            display: inline-block;
+            width: 400px;
+        }
+        
+        .section {
+            background: #fffcef;
+            margin-right: 0px;
+            margin-top: 10px;
+        }
+        
+        #h2 {
+            color: #f3000c;
+            font-size: 4.6rem;
+            margin-bottom: 0px;
+            line-height: 40px;
+            text-align: center;
+            margin-top: 0px;
+        }
+        
+        .homeProductBestList {
+            margin-top: 30px;
+            margin-left: 0px;
+        }
+        
+        .homeProductBestList ul {
+            display: inline-block;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+        .homeProductBestList ul li {
+            width: 300px;
+            margin-left: 0px;
+            display: inline-block;
+            margin-bottom: 50px;
+        }
+        
+        .homeProductBestList ul li p {
+            font-family: abril;
+            margin-left: 80px;
+            align-items: center;
+            font-size: 20px;
+        }
+        
+        .wrap {
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        
+        .btn {
+            color: #d3002b;
+            border: 1px solid #d3002b;
+            border-radius: 25px;
+            display: inline-block;
+            padding: 0px 15px;
+            text-decoration: none;
+            width: 150px;
+            height: 40px;
+            margin-left: 80px;
+            line-height: 40px;
+            text-align: center;
+            font-family: "GothamRoundedMedium";
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin-top: 0px;
+        }
+        
+        .celebration {
+            background-image: url("../Image/bg6.jpg");
+            width: 100%;
+            background-repeat: no-repeat;
+            height: 800px;
+        }
+        
+        .c1 {
+            width: 35%;
+            padding-bottom: 50px;
+            padding-top: 300px;
+            padding-right: 0%;
+            margin-left: 10px;
+            float: right;
+        }
+        
+        #hh2 {
+            color: #f3000c;
+            font-size: 4.6rem;
+            margin-bottom: 0px;
+            line-height: 40px;
+            margin-left: 10px;
+            text-align: left;
+        }
+        
+        .c1 h4 {
+            margin-top: 10px;
+            font-size: 2rem;
+        }
+        
+        .c1 p {
+            font-size: 20px;
+        }
+        
+        .class1 input {
+            margin-bottom: 10px;
+            padding: 10px;
+            position: relative;
+            border-radius: 10px;
+            width: 300px;
+        }
+        
+        .class1 select {
+            margin-bottom: 10px;
+            padding: 10px;
+            position: relative;
+            border-radius: 10px;
+            width: 325px;
+        }
+        
+        .formWrap {
+            width: 60%;
+            padding: 15px 5% 0px 5%;
+            float: left;
+        }
+        
+        .confirm {
+            display: inline-block;
+        }
+        
+        .ff {
+            align-items: right;
+            margin-top: 300px;
+            border-radius: 20px 20px 20px 20px;
+            -webkit-box-shadow: -3px 0px 38px -9px rgba(0, 0, 0, 0.53);
+            -moz-box-shadow: -3px 0px 38px -9px rgba(0, 0, 0, 0.53);
+            box-shadow: -3px 0px 38px -9px rgba(0, 0, 0, 0.53);
+            padding-top: 0px;
+            height: 550px;
+            float: left;
+            width: 60%;
+        }
+        
+        .formc {
+            width: 200px;
+        }
+        
+        .formSecImg {
+            height: 500px;
+            width: 200px;
+            float: right;
+            margin-bottom: 0px;
+        }
+        
+        .formSecImg img {
+            height: 500px;
+            width: 200px;
+            float: right
+        }

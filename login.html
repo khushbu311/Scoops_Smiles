@@ -111,17 +111,17 @@
         <div class="logo">
             <a href="index.html"><img src="./Image/logo2.jpg" alt=""></a>
         </div>
-        <form>
+        <form action="index.html" onsubmit="return validate()" novalidate>
             <h1>Login</h1>
             <div class="first">
                 <div class="container">
                     <label for="inputEmail3" class="flable">Email</label>
                     <div class="col">
-                        <input type="email" class="" id="inputEmail3" name="emailid" maxlength="60" placeholder="Email" required>
+                        <input type="email" onblur="validate4()" class="" id="inputEmail3" name="emailid" maxlength="60" placeholder="Email" required>
                     </div>
                 </div>
                 <div class="container">
-                    <label for="inputPassword3" class="flable">Password</label>
+                    <label for="inputPassword3" class="flable" onblur="validate5()">Password</label>
                     <div class="col">
                         <input type="password" class="form-control" id="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}" maxlength="16" required>
                     </div>
@@ -137,6 +137,7 @@
          <a href="Register.html">Create Your Account</a>
        </span>
     </div>
+    <script src="validate.js"></script>
 </body>
 
 </html>

@@ -4,6 +4,7 @@ $(function() {
         "/home/neosoft/Desktop/webasic/Scoops_Smiles/b1.jpg",
         "/home/neosoft/Desktop/webasic/Scoops_Smiles/b2.jpg",
         "/home/neosoft/Desktop/webasic/Scoops_Smiles/b3.jpg",
+
     ]
     var i = 0;
     setInterval(function() {

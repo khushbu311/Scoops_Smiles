@@ -1,9 +1,9 @@
 $(function() {
     var pic = $('img:first')
     var images = [
-        "/home/neosoft/Desktop/webasic/Scoops&Smiles/Image/b1.jpg",
-        "/home/neosoft/Desktop/webasic/Scoops&Smiles/Image/b2.jpg",
-        "/home/neosoft/Desktop/webasic/Scoops&Smiles/Image/b3.jpg",
+        "/home/neosoft/Desktop/webasic/Scoops_Smiles/b1.jpg",
+        "/home/neosoft/Desktop/webasic/Scoops_Smiles/b2.jpg",
+        "/home/neosoft/Desktop/webasic/Scoops_Smiles/b3.jpg",
     ]
     var i = 0;
     setInterval(function() {

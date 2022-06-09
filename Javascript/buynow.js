@@ -1,4 +1,4 @@
 function buynow() {
-    const action = window.open("file:///home/neosoft/Desktop/webasic/Scoops_Smiles/new.html", "_top")
-    console.log(action);
+    window.open("new.html", "_top");
+
 }
